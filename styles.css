@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --fonte: 'Roboto';
+
+    --primeira-cor: #dadddf;
+    --segunda-cor: #0f1419;
+    --terceira-cor: #536471;
+    --quarta-cor: #2196f3;
+    --quinta-cor: #ffffff;
+    --sexta-cor: #7e8b94;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    box-sizing: border-box;
+    position: absolute;
+    width: 591px;
+    height: 161px;
+    left: 25px;
+    top: 97px;
+    border: 3px solid #dadddf;
+    border-radius: 3px;
+  }
+
+  .cabecalho {
+    display: flex;
+  }
+
+  .cabecalho__logo {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    padding: 17px 526px 96px 17px;
+  }
+
+  .cabecalho__informacao__marca {
+    color: var(--segunda-cor);
+    width: 31px;
+    height: 18px;
+    padding: 17px 483px 126px 77px;
+    font-family: var(--fonte);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  .cabecalho__informacao__verificado1 {
+    color: var(--quarta-cor);
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    padding: 18px 465px 128px 111px;
+  }
+
+  .cabecalho__informacao__verificado2 {
+    color: var(--quinta-cor);
+    position: absolute;
+    width: 8.33px;
+    height: 6.5px;
+    padding: 15px 468.33px 132.25px 114.33px;
+  }
+
+  .cabecalho__informacao__arroba {
+    color: var(--terceira-cor);
+    position: absolute;
+    width: 44px;
+    height: 18px;
+    padding: 17px 415px 126px 132px;
+    font-family: var(--fonte);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  .cabecalho__informacao__dot {
+    color: var(--terceira-cor);
+    position: absolute;
+    width: 23px;
+    height: 18px;
+    padding: 8px 398px 126px 178px;
+    font-family: var(--fonte);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 17.58px;
+  }
+
+  .cabecalho__informacao__data {
+    color: var(--terceira-cor);
+    position: absolute;
+    width: 68px;
+    height: 18px;
+    padding: 17px 336px 126px 188px;
+    font-family: var(--fonte);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  .principal {
+    display: flex;
+  }
+
+  .principal__frase {
+    color: var(--segunda-cor);
+    position: absolute;
+    width: 430px;
+    height: 72px;
+    top: 0px;
+    left: 0px;
+    padding: 40px 84px 49px 77px;
+    font-family: var(--fonte);
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  .rodape {
+    display: flex;
+  }
+
+  .rodape__comentario__icone {
+    color: var(--sexta-cor);
+    position: absolute;
+    width: 15px;
+    height: 13.49px;
+    padding: 128px 499px 19.51px 77px;
+    top: 0px;
+    left: 0px;
+  }
+
+  .rodape__comentario__texto {
+    color: var(--terceira-cor);
+    position: absolute;
+    width: 8px;
+    height: 15px;
+    padding: 127px 474px 19px 109px;
+    top: 0px;
+    left: 0px;
+    font-family: var(--fonte);
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  .rodape__retwettar__icone {
+    color: var(--sexta-cor);
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    padding: 127px 386px 19px 190px;
+    top: 0px;
+    left: 0px;
+  }
+
+  .rodape__retwettar__texto {
+    color: var(--terceira-cor);
+    position: absolute;
+    width: 39px;
+    height: 15px;
+    padding: 127px 329px 19px 223px;
+    top: 0px;
+    left: 0px;
+    font-family: var(--fonte);
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  .rodape__favoritar__icone {
+    color: var(--sexta-cor);
+    position: absolute;
+    width: 15px;
+    height: 13.08px;
+    padding: 128px 241px 19.92px 335px;
+    top: 0px;
+    left: 0px;
+  }
+
+  .rodape__favoritar__texto {
+    color: var(--terceira-cor);
+    position: absolute;
+    width: 36px;
+    height: 15px;
+    padding: 127px 184px 19px 371px;
+    top: 0px;
+    left: 0px;
+    font-family: var(--fonte);
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  .rodape__compartilhar__icone {
+  color: var(--sexta-cor);
+  position: absolute;
+  width: 13px;
+  height: 14.44px;
+  padding: 127px 98px 19.56px 480px;
+  top: 0px;
+  left: 0px;
+}
